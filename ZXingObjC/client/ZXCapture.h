@@ -18,7 +18,7 @@
 
 @protocol ZXCaptureDelegate, ZXReader;
 @class ZXDecodeHints;
-
+/*Update to use for IPhone X+ */
 @interface ZXCapture : NSObject <AVCaptureVideoDataOutputSampleBufferDelegate, CAAction, CALayerDelegate>
 
 @property (nonatomic, assign) int camera;
